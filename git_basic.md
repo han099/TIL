@@ -33,7 +33,7 @@ $ cd ..
 $ pwd
 ```
 --- 
-## git commit 하기
+## git commit 연습
 
 1.  Git 저장소 초기화
 ```git
@@ -84,5 +84,21 @@ $ git commit -m 'Add Index.html'
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 index.html
 ```
+---
+## github에 원격저장소 설정 후 push하기
+```
+$ git init
+$ git add *
+$ git commit -m 'first commit'
+```
+![원격저장소](./1.PNG)
+**Repository name 입력 후 Create repository**
+```
+$ git remote add origin (원격저장소 주소)
+
+# https://github.com/(계정이름)/(원격저장소 이름).git
+```
+
+
 
 
