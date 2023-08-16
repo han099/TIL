@@ -91,6 +91,7 @@ $ git init
 $ git add *
 $ git commit -m 'first commit'
 ```
+**브라우저에서 github로 이동 후 원격저장소 생성**
 ![원격저장소](./1.PNG)
 **Repository name 입력 후 Create repository**
 ```
@@ -98,7 +99,12 @@ $ git remote add origin (원격저장소 주소)
 
 # https://github.com/(계정이름)/(원격저장소 이름).git
 ```
-
+```
+$ git push origin main
+```
+- 실행결과
+![실행결과](./2.PNG)
+*파일들이 잘 커밋된 것을 확인할 수 있다*
 
 
 
